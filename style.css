@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+.bg {
+    height: calc(100vh);
+    background-image: url(http://picsum.photos/id/53/1280/1280);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.headline a {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    position:absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.content1 {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    font-size: 40px;
+    margin: 0;
+}
+.content1 h1 {
+    margin: 0;
+}
+
+.content2 {
+    /* background-color: beige; */
+    color: white;
+}
+
+.content2 p {
+    margin-top: 20px;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content3 > p {
+    width: 100%;
+    background: linear-gradient(to right, #00FFFF 0%,#00FFFF 70%,white 70%,white 100%);
+    box-shadow: 4px 4px gray;
+    text-align: center;
+    margin: 0;
+}
+.percent {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.percent p {
+    margin: 0;
+}
+
+.content4 {
+    background-color: beige;
+    display: flex;
+    margin: 10px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.logo {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.logo i {
+    border-radius: 50%;
+    border: solid white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bottom {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 90%;
+    bottom: 0;
+    color: white;
+}
+
+hr {
+    width: 80%;
+    border: 2px solid darkgray;
+}
